@@ -1,0 +1,28 @@
+# --- Java & Eclipse ---
+*.class
+bin/
+gen/
+.metadata/
+.recommenders/
+
+# --- PDE Specific ---
+# 빌드 시 생성되는 임시 폴더 및 결과물
+build.xml
+javaCompiler...args
+@dot/
+src.zip
+*.jar
+
+# --- OSGi & Target Platform ---
+# 타겟 플랫폼 설정이나 런타임 로그
+configuration/
+p2/
+artifacts.xml
+
+# --- Maven/Tycho (만약 사용 중이라면) ---
+target/
+
+# --- User specific (개인 설정) ---
+.settings/
+.location
+.projects
